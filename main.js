@@ -2,7 +2,7 @@ import "./style.css";
 import * as PIXI from "pixi.js";
 
 const cards_urls = import.meta.glob(
-  "./public/Pixel Classic Cards/Black Hearts/*"
+  "./assets/Pixel Classic Cards/Black Hearts/*"
 );
 
 const app = new PIXI.Application({
