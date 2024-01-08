@@ -11,6 +11,12 @@ const app = new PIXI.Application({
 });
 
 let card = PIXI.Sprite.from(img);
+
+let label = new PIXI.Text("Center");
+label.anchor.set(0.5);
+label.x = app.screen.width / 2;
+label.y = app.screen.height / 2;
+app.stage.addChild(label);
 card.x = 250;
 card.y = 250;
 card.scale.set(2, 2);
