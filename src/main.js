@@ -12,7 +12,7 @@ const app = new PIXI.Application({
 
 let card = PIXI.Sprite.from(img);
 
-let label = new PIXI.Text("Center");
+let label = new PIXI.Text("Center", { fill: "#ff0000" });
 label.anchor.set(0.5);
 label.x = app.screen.width / 2;
 label.y = app.screen.height / 2;
