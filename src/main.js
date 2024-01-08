@@ -8,6 +8,7 @@ const app = new PIXI.Application({
   backgroundColor: "#000000",
   view: document.getElementById("canvas"),
   antialias: true,
+  resolution: window.devicePixelRatio,
 });
 
 let card = PIXI.Sprite.from(img);
